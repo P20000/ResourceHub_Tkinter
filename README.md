@@ -17,15 +17,6 @@ It allows users to save links to articles, code snippets, or notes, automaticall
 | Enter the URL, Title, and Tags. Clicking the button triggers scraping, AI summarization, and data persistence. | The left panel shows filtered results. The right panel displays the **AI-Generated Summary** prominently above the raw content. |
 |                             ![Input Form Screenshot](./docs/images/input-form.png)                             |                                 ![Search Results Screenshot](./docs/images/results-summary.png)                                 |
 
-> ℹ️ **Tip:** If you publish this README to a site that doesn’t serve repository assets (e.g., PyPI), the relative image links won’t load. In that case, replace them with absolute `raw.githubusercontent.com` links (see snippet below).
-
-**Alternative (absolute links) — use when embedding outside GitHub:**
-
-```md
-![Input Form](https://raw.githubusercontent.com/<YOUR_USERNAME>/ResourceHub_Tkinter/main/docs/images/input-form.png)
-![Results & Summary](https://raw.githubusercontent.com/<YOUR_USERNAME>/ResourceHub_Tkinter/main/docs/images/results-summary.png)
-```
-
 ---
 
 ## ✨ Key Features
@@ -116,4 +107,5 @@ git add docs/images/input-form.png docs/images/results-summary.png README.md
 git commit -m "docs: fix README images via repo-relative paths"
 git push origin main
 ```
+
 
