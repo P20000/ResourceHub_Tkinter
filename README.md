@@ -12,17 +12,6 @@ It allows users to save links to articles, code snippets, or notes, automaticall
 
 ---
 
-## 📸 Visual Guide: Core Workflow
-
-> ✅ **Fix implemented:** The images below now use **relative paths stored in the repo**, so they render reliably on GitHub and won’t show **Access Denied**.
->
-> Place your screenshots in: `docs/images/`
->
-> * `docs/images/input-form.png`
-> * `docs/images/results-summary.png`
->
-> If you keep your repository **private**, do **not** use `https://user-images.githubusercontent.com/...` links from issues of another private repo—those often break. Relative paths inside the repo are the safest.
-
 |                                        1. Input & Summarization Trigger                                        |                                                  2. Results and AI Summary View                                                 |
 | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
 | Enter the URL, Title, and Tags. Clicking the button triggers scraping, AI summarization, and data persistence. | The left panel shows filtered results. The right panel displays the **AI-Generated Summary** prominently above the raw content. |
@@ -127,3 +116,4 @@ git add docs/images/input-form.png docs/images/results-summary.png README.md
 git commit -m "docs: fix README images via repo-relative paths"
 git push origin main
 ```
+
